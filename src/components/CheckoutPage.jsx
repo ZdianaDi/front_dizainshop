@@ -75,7 +75,7 @@ const CheckoutPage = () => {
 
             <input
               name="telegram"
-              placeholder="Telegram / Instagram"
+              placeholder="Как с Вами связаться? (telegram/inst/vk/max)"
               value={form.telegram}
               onChange={handleChange}
             />
@@ -93,9 +93,9 @@ const CheckoutPage = () => {
               value={form.delivery}
               onChange={handleChange}
             >
-              <option>Самовывоз</option>
+              <option>Самовывоз (Москва, м.Юго-Западная)</option>
               <option>Доставка по городу</option>
-              <option>Почта / СДЭК</option>
+              <option>Почта / СДЭК / Озон / Вб / Яндекс</option>
             </select>
 
             <textarea

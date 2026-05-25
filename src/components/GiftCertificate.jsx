@@ -3,7 +3,10 @@ import "../App.css";
 
 const GiftCertificate = () => {
   return (
-    <section className="gift-section">
+    <section
+  className="gift-certificate"
+  id="gift-certificate"
+>
       <h2 className="section-title dark">Подарочный сертификат</h2>
 
       <div className="gift-wrapper">

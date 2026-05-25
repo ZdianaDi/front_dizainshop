@@ -2775,3 +2775,70 @@ body{
   text-decoration:none;
   white-space:nowrap;
 }
+html{
+  scroll-behavior:smooth;
+}
+
+#hero,
+#brand,
+#gift-certificate,
+#custom,
+#reviews,
+#contacts,
+#faq{
+  scroll-margin-top:120px;
+}
+.gift-wrapper{
+  width:85%;
+  margin:60px auto 0;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:80px;
+
+  flex-wrap:wrap;
+}
+
+.gift-image img{
+  width:700px;
+  max-width:100%;
+  border-radius:30px;
+}
+
+.gift-content{
+  max-width:420px;
+
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+}
+
+.gift-text{
+  font-size:20px;
+  color:white;
+}
+
+.gift-btn{
+  width:220px;
+  height:65px;
+
+  border:none;
+  border-radius:20px;
+
+  background:#e5c2cf;
+  color:#5a0000;
+
+  font-size:20px;
+  font-family:'Cera';
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+.gift-btn:hover{
+  transform:scale(1.03);
+}
+.reviews-section{
+  margin-top:120px;
+}

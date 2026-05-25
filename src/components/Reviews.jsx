@@ -102,7 +102,7 @@ const Reviews = () => {
   }, []);
 
   return (
-    <section className="reviews-section">
+    <section className="reviews-section" id="reviews">
      <h2 className="section-title white-title">Отзывы</h2>
 
       <div className="reviews-box">

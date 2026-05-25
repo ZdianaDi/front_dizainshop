@@ -22,7 +22,7 @@ const Hero = () => {
   }, [current, images.length]);
 
   return (
-  <div className="hero" id="hero">
+  <div className="hero" id="brand">
 
       <div className="hero-image">
         <img src={images[current]} alt="hero" />
