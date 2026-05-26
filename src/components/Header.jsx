@@ -62,9 +62,17 @@ const Header = () => {
             Вопросы
           </a>
 
-          <Link to="/cart">
-            <FaShoppingBag className="cart-icon" />
-          </Link>
+          <div className="header-actions">
+
+  <Link to="/auth" className="login-btn">
+    Войти
+  </Link>
+
+  <Link to="/cart">
+    <FaShoppingBag className="cart-icon" />
+  </Link>
+
+</div>
 
         </div>
 

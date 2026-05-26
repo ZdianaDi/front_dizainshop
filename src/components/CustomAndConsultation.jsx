@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-
+import { Link } from "react-router-dom";
 const CustomAndConsultation = () => {
   return (
     <div>
@@ -20,9 +20,9 @@ const CustomAndConsultation = () => {
       от эскиза до готового изделия.
     </p>
 
-    <button className="custom-btn">
-      Заказываю!
-    </button>
+   <button className="custom-btn">
+  Заказываю!
+</button>
 
   </div>
 
@@ -53,9 +53,11 @@ const CustomAndConsultation = () => {
           а работало на вас и усиливало образ.
         </p>
 
-        <button className="consult-btn">
-          Мне надо!
-        </button>
+        <Link to="/product/11">
+  <button className="consult-btn">
+    Мне надо!
+  </button>
+</Link>
 
       </div>
 

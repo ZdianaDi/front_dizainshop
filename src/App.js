@@ -85,6 +85,7 @@ import CheckoutPage from "./components/CheckoutPage";
 import CreateBagPage from "./components/CreateBagPage";
 import Contacts from "./components/Contacts";
 import "./App.css";
+import AuthPage from "./components/AuthPage";
 
 function HomePage() {
   return (
@@ -153,6 +154,15 @@ function App() {
     <>
       <Header />
       <CreateBagPage />
+    </>
+  }
+/>
+<Route
+  path="/auth"
+  element={
+    <>
+      <Header />
+      <AuthPage />
     </>
   }
 />

@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import { Link } from "react-router-dom";
 
 const GiftCertificate = () => {
   return (
@@ -22,9 +23,11 @@ const GiftCertificate = () => {
             со смыслом, вниманием и эстетикой.
           </p>
 
-          <button className="gift-btn">
-            Покупаю
-          </button>
+         <Link to="/product/gift-certificate">
+  <button className="gift-btn">
+    Покупаю
+  </button>
+</Link>
         </div>
       </div>
     </section>

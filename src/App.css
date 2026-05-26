@@ -2842,3 +2842,92 @@ html{
 .reviews-section{
   margin-top:120px;
 }
+.auth-page{
+  min-height:100vh;
+  background:#dcb2c3;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:120px 20px;
+}
+
+.auth-card{
+  width:100%;
+  max-width:430px;
+  background:#f4d4df;
+  border-radius:28px;
+  padding:45px;
+  text-align:center;
+}
+
+.auth-title{
+  font-family:'Miama';
+  font-size:56px;
+  font-weight:400;
+  color:#4f0606;
+  margin-bottom:10px;
+}
+
+.auth-subtitle{
+  font-family:'Cera';
+  font-size:16px;
+  color:#4f0606;
+  margin-bottom:30px;
+}
+
+.auth-form{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+
+.auth-input{
+  width:100%;
+  padding:15px 18px;
+  border:none;
+  border-radius:14px;
+  font-size:16px;
+  font-family:'Cera';
+  outline:none;
+  color:#4f0606;
+}
+
+.auth-btn{
+  margin-top:10px;
+  height:54px;
+  border:none;
+  border-radius:16px;
+  background:#6d0000;
+  color:white;
+  font-size:18px;
+  font-family:'Cera';
+  cursor:pointer;
+}
+
+.auth-switch{
+  margin-top:22px;
+  background:none;
+  border:none;
+  color:#4f0606;
+  font-size:15px;
+  font-family:'Cera';
+  cursor:pointer;
+}
+.header-actions{
+  display:flex;
+  align-items:center;
+  gap:18px;
+}
+
+.login-btn{
+  color:white;
+  text-decoration:none;
+  font-family:'Cera';
+  font-size:18px;
+  font-weight:500;
+  transition:0.3s;
+}
+
+.login-btn:hover{
+  opacity:0.7;
+}
